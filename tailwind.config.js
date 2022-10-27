@@ -5,7 +5,18 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        'move': {
+          '0%': { transform: 'translate(100%)'},
+          '100%': { transform: 'translate(-100%)'},
+        }
+      },
+      animation: {
+        move: 'move linear infinite 20s',
+        reverse: 'move linear infinite reverse 15s',
+      }
+    },
   },
   plugins: [],
 };

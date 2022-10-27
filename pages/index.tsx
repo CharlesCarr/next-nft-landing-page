@@ -7,6 +7,7 @@ import NFTGrid from '../components/sections/NFTGrid';
 import ProjectGrid from '../components/sections/ProjectGrid';
 import Top from '../components/Top';
 import Roadmap from '../components/sections/Roadmap';
+import Showcase from "../components/sections/Showcase";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Carousel />
 
       <Roadmap />
+      <Showcase />
 
       {/* <Companies />
       <NFTGrid />
