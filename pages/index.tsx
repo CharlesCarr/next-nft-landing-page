@@ -6,6 +6,7 @@ import Nav from '../components/Nav';
 import NFTGrid from '../components/sections/NFTGrid';
 import ProjectGrid from '../components/sections/ProjectGrid';
 import Top from '../components/Top';
+import Roadmap from '../components/sections/Roadmap';
 
 export default function Home() {
   return (
@@ -20,10 +21,11 @@ export default function Home() {
       <Top />
       <Carousel />
 
-      <Companies />
-      
+      <Roadmap />
+
+      {/* <Companies />
       <NFTGrid />
-      <ProjectGrid />
+      <ProjectGrid /> */}
       <Footer />
     </div>
   )
