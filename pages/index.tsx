@@ -1,10 +1,10 @@
 import Head from 'next/head'
-import Carousel from '../components/Carousel';
-import Companies from '../components/Companies';
+import Carousel from '../components/sections/Carousel';
+import Companies from '../components/sections/Companies';
 import Footer from '../components/Footer';
 import Nav from '../components/Nav';
-import NFTGrid from '../components/NFTGrid';
-import ProjectGrid from '../components/ProjectGrid';
+import NFTGrid from '../components/sections/NFTGrid';
+import ProjectGrid from '../components/sections/ProjectGrid';
 import Top from '../components/Top';
 
 export default function Home() {
@@ -18,8 +18,10 @@ export default function Home() {
 
       <Nav />
       <Top />
-      <Companies />
       <Carousel />
+
+      <Companies />
+      
       <NFTGrid />
       <ProjectGrid />
       <Footer />
