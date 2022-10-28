@@ -1,13 +1,14 @@
-import Head from 'next/head'
-import Carousel from '../components/sections/Carousel';
-import Companies from '../components/sections/Companies';
-import Footer from '../components/Footer';
-import Nav from '../components/Nav';
-import NFTGrid from '../components/sections/NFTGrid';
-import ProjectGrid from '../components/sections/ProjectGrid';
-import Top from '../components/Top';
-import Roadmap from '../components/sections/Roadmap';
+import Head from "next/head";
+import Carousel from "../components/sections/Carousel";
+import Companies from "../components/sections/Companies";
+import Footer from "../components/Footer";
+import Nav from "../components/Nav";
+import NFTGrid from "../components/sections/NFTGrid";
+import ProjectGrid from "../components/sections/ProjectGrid";
+import Top from "../components/Top";
+import Roadmap from "../components/sections/Roadmap";
 import Showcase from "../components/sections/Showcase";
+import Faq from "../components/sections/Faq";
 
 export default function Home() {
   return (
@@ -21,14 +22,15 @@ export default function Home() {
       <Nav />
       <Top />
       <Carousel />
-
       <Roadmap />
       <Showcase />
+      <Faq />
 
       {/* <Companies />
       <NFTGrid />
       <ProjectGrid /> */}
+
       <Footer />
     </div>
-  )
+  );
 }
