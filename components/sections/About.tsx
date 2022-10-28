@@ -1,11 +1,12 @@
 import React from "react";
+import Carousel from "../Carousel";
 
-const Carousel = () => {
+const About = () => {
   return (
     <div className="bg-slate-600 w-full h-[100vh] flex justify-center items-center relative overflow-hidden text-white">
       <div className="w-3/4 mx-0 my-auto flex justify-center items-center">
         <div className="w-1/2 h-full min-h-[60vh] flex flex-col items-center justify-center">
-          <p>Carousel</p>
+          <Carousel />
         </div>
 
         <div className="w-3/4 mx-0 my-auto flex flex-col justify-center items-center">
@@ -20,4 +21,4 @@ const Carousel = () => {
   );
 };
 
-export default Carousel;
+export default About;

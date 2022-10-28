@@ -2,10 +2,10 @@ import React from "react";
 import Banner from "./Banner";
 
 const Footer = () => {
-  const scrollTo = (id) => {
+  const scrollTo = (id: any) => {
     let element = document.getElementById(id);
 
-    element.scrollIntoView({
+    element?.scrollIntoView({
       behavior: "smooth",
       block: "start",
       inline: "nearest",

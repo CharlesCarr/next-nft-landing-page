@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Carousel from "../components/sections/Carousel";
+import About from "../components/sections/About";
 import Companies from "../components/sections/Companies";
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
@@ -21,7 +21,7 @@ export default function Home() {
 
       <Nav />
       <Top />
-      <Carousel />
+      <About />
       <Roadmap />
       <Showcase />
       <Faq />
