@@ -39,8 +39,10 @@ const Top = () => {
             name={"@mark"}
             price={"1.0234 ETH"}
             time={"03 : 08 : 15"}
-            height={"150px"}
-            width={"250px"}
+            // 150
+            height={"400"}
+            // 250
+            width={"test"}
             rotation={"rotate-6"}
             background={true}
           />

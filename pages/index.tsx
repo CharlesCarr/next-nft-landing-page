@@ -9,6 +9,7 @@ import Top from "../components/Top";
 import Roadmap from "../components/sections/Roadmap";
 import Showcase from "../components/sections/Showcase";
 import Faq from "../components/sections/Faq";
+import { Inter } from '@next/font/google'
 
 export default function Home() {
   return (

@@ -17,6 +17,9 @@ module.exports = {
         reverse: 'move linear infinite reverse 15s',
       }
     },
+    fontFamily: {
+      sans: ['Space Grotesk', 'sans-serif'],
+    },
   },
   plugins: [],
 };
