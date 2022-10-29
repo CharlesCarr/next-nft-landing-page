@@ -34,7 +34,16 @@ const Top = () => {
         </div>
 
         <div className="w-1/2 h-full flex flex-col justify-center items-center border">
-          <NFTCard />
+          <NFTCard
+            nft={"Monkey #2"}
+            name={"@mark"}
+            price={"1.0234 ETH"}
+            time={"03 : 08 : 15"}
+            height={"150px"}
+            width={"250px"}
+            rotation={"rotate-6"}
+            background={true}
+          />
         </div>
 
         {/* <div className="absolute bottom-8 right-[90%] w-28 h-28 border rounded-full">
