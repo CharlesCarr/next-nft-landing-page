@@ -21,16 +21,16 @@ export default function Home() {
 
       <Nav />
       <Top />
-      <About />
+      {/* <About />
       <Roadmap />
       <Showcase />
-      <Faq />
+      <Faq /> */}
 
       {/* <Companies />
       <NFTGrid />
       <ProjectGrid /> */}
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
