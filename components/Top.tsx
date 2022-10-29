@@ -8,8 +8,10 @@ const Top = () => {
       className="bg-white w-full flex flex-col items-center justify-center"
       id="home"
     >
-      <div className="w-full h-3/4 flex justify-center items-center border border-black">
-        <div className="w-1/2 h-full flex flex-col justify-center items-start border pl-20">
+      {/* border border-black */}
+      <div className="w-full h-3/4 flex justify-center items-center ">
+        {/* border */}
+        <div className="w-1/2 h-full flex flex-col justify-center items-start  pl-20">
           <p className="text-4xl font-bold mb-4 tracking-wider">
             Collect Super <br /> Rare Digital
             <br /> Artworks
@@ -33,7 +35,8 @@ const Top = () => {
           {/* <button className="border px-3 py-1">Explore</button> */}
         </div>
 
-        <div className="w-1/2 h-full flex flex-col justify-center items-center border">
+        {/* border */}
+        <div className="w-1/2 h-full flex flex-col justify-center items-center">
           <NFTCard
             nft={"Monkey #2"}
             name={"@mark"}
@@ -57,7 +60,8 @@ const Top = () => {
         {/* </div>  */}
       </div>
 
-      <div className="bg-white w-full border border-black flex justify-start items-center pl-20">
+{/* border border-black */}
+      <div className="bg-white w-full  flex justify-start items-center pl-20">
         <div className="pr-4">
           <p className="font-bold">30k+</p>
           <p className="text-xs">Artwork</p>
