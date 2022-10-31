@@ -27,16 +27,14 @@ export default function Home() {
       <Trending />
       <Collections />
       <Showcase />
+      <Footer />
+
       {/* <About />
       <Roadmap />
-      
       <Faq /> */}
-
       {/* <Companies />
       <NFTGrid />
       <ProjectGrid /> */}
-
-      {/* <Footer /> */}
     </div>
   );
 }
