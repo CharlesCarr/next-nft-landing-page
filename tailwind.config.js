@@ -15,8 +15,8 @@ module.exports = {
         }
       },
       animation: {
-        move: 'move linear infinite 20s',
-        reverse: 'move linear infinite reverse 15s',
+        move: 'move linear infinite 25s',
+        reverse: 'move linear infinite reverse 20s',
       }
     },
     fontFamily: {

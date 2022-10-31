@@ -7,7 +7,37 @@
   min-height: calc(100vh - 5rem);
 }
 
-/* small medium large w/ h & w */
-.test {
-    width: 300px;
+/* TOP SECTION LARGE NFT */
+/* subsection (need to add here): toph=80px, imgh=150px, bottomh=80px */
+/* top is 1/5, image 0.375, bottom is 1/5 of total height*/
+.tl-total {
+  width: 300px;
+  height: 400px;
+}
+
+.tl-top-bottom {
+  height: 80px;
+}
+
+.tl-img {
+  height: 150px;
+}
+
+/* total: height,
+top: (Number(height) * (1/5)),
+img: (Number(height) * (0.375)),
+bottom: (Number(height) * (1/5)), */
+
+/* TRENDING NFTs */
+.trs-total {
+  width: 100%;
+  height: 100%;
+}
+
+.trs-tb {
+  height: 20%;
+}
+
+.trs-img {
+  height: 60%;
 }

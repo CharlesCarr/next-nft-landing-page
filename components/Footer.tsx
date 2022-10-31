@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <div className="h-fit w-screen flex flex-col px-20 items-center justify-end">
-      <div className="w-full h-40 bg-black flex justify-between items-center px-32">
+    <div className="h-fit w-screen flex flex-col items-center justify-end">
+      <div className="w-full h-44 bg-black flex justify-between items-center px-32">
         <p className="text-3xl font-bold text-white">Join Our Community</p>
          <button>
             <a
@@ -38,7 +38,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="flex w-2/4 h-full">
+        <div className="flex w-2/4 h-full pr-16">
           <div className="w-1/4">
             <ul className="m-0 p-0">
               <li className="font-bold mb-6 text-sm tracking-wider">Marketplace</li>
