@@ -11,6 +11,7 @@ import Showcase from "../components/sections/Showcase";
 import Faq from "../components/sections/Faq";
 import { Inter } from '@next/font/google'
 import Trending from "../components/sections/Trending";
+import Collections from "../components/sections/Collections";
 
 export default function Home() {
   return (
@@ -24,9 +25,11 @@ export default function Home() {
       <Nav />
       <Top />
       <Trending />
+      <Collections />
+      <Showcase />
       {/* <About />
       <Roadmap />
-      <Showcase />
+      
       <Faq /> */}
 
       {/* <Companies />

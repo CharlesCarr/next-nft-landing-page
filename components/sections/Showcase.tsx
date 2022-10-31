@@ -6,7 +6,7 @@ const Showcase = () => {
   const Row2Ref = useRef(null);
 
   return (
-    <div className="min-h-screen w-screen flex flex-col justify-center items-center relative overflow-hidden bg-slate-700" id="showcase">
+    <div className="min-h-screen w-screen flex flex-col justify-center items-center relative overflow-hidden" id="showcase">
       <div
         className="whitespace-nowrap box-content mx-8 my-0 flex animate-move"
         ref={Row1Ref}
