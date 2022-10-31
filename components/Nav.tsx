@@ -2,9 +2,9 @@ import React from "react";
 
 const Nav = () => {
   return (
-    <div className="bg-white border-b-black border w-full h-20 text-center flex items-center justify-center">
+    <div className="bg-white border-b-black border w-full h-20 text-center flex items-center justify-center text-xs tracking-wider">
       <nav className="flex justify-between items-center w-full mx-20">
-        <p>Logo</p>
+        <p className="text-xl font-bold">Logo</p>
 
         <span className="hidden">Ham Menu</span>
 
