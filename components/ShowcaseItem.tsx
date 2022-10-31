@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 // import Phillies from "./images/phillies-test.jpeg";
 
-const NftItem = ({ img = 0, number = 0, price = 0, passRef }: any) => {
+const ShowcaseItem = ({ img = 0, number = 0, price = 0, passRef }: any) => {
   let play = (e: any) => {
     passRef.current.style.animationPlayState = "running";
   };
@@ -28,4 +28,4 @@ const NftItem = ({ img = 0, number = 0, price = 0, passRef }: any) => {
   );
 };
 
-export default NftItem;
+export default ShowcaseItem;

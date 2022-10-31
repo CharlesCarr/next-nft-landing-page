@@ -12,10 +12,10 @@ module.exports = {
           '100%': { transform: 'translate(-100%)'},
         }
       },
-      // animation: {
-      //   move: 'move linear infinite 20s',
-      //   reverse: 'move linear infinite reverse 15s',
-      // }
+      animation: {
+        move: 'move linear infinite 20s',
+        reverse: 'move linear infinite reverse 15s',
+      }
     },
     fontFamily: {
       sans: ['Space Grotesk', 'sans-serif'],
