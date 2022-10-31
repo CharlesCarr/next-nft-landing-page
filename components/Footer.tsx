@@ -41,34 +41,35 @@ const Footer = () => {
         <div className="flex w-2/4 h-full">
           <div className="w-1/4">
             <ul className="m-0 p-0">
-              <li className="font-bold mb-6 text-sm tracking-wider">All NFTs</li>
+              <li className="font-bold mb-6 text-sm tracking-wider">Marketplace</li>
               <li className="font-light text-xs mb-4">All NFTs</li>
-              <li className="font-light text-xs mb-4">All NFTs</li>
-              <li className="font-light text-xs mb-4">All NFTs</li>
+              <li className="font-light text-xs mb-4">Collectibles</li>
+              <li className="font-light text-xs mb-4">Photography</li>
+              <li className="font-light text-xs mb-4">Trading Cards</li>
             </ul>
           </div>
           <div className="w-1/4">
             <ul className="m-0 p-0">
-              <li className="font-bold mb-6 text-sm tracking-wider">All NFTs</li>
-              <li className="font-light text-xs mb-4">All NFTs</li>
-              <li className="font-light text-xs mb-4">All NFTs</li>
-              <li className="font-light text-xs mb-4">All NFTs</li>
+              <li className="font-bold mb-6 text-sm tracking-wider">Statistics</li>
+              <li className="font-light text-xs mb-4">Rankings</li>
+              <li className="font-light text-xs mb-4">Activity</li>
             </ul>
           </div>
           <div className="w-1/4">
             <ul className="m-0 p-0">
-              <li className="font-bold mb-6 text-sm tracking-wider">All NFTs</li>
-              <li className="font-light text-xs mb-4">All NFTs</li>
-              <li className="font-light text-xs mb-4">All NFTs</li>
-              <li className="font-light text-xs mb-4">All NFTs</li>
+              <li className="font-bold mb-6 text-sm tracking-wider">Resources</li>
+              <li className="font-light text-xs mb-4">Help Center</li>
+              <li className="font-light text-xs mb-4">Partners</li>
+              <li className="font-light text-xs mb-4">Docs</li>
+              <li className="font-light text-xs mb-4">Newsletter</li>
             </ul>
           </div>
           <div className="w-1/4">
             <ul className="m-0 p-0">
-              <li className="font-bold mb-6 text-sm tracking-wider">All NFTs</li>
-              <li className="font-light text-xs mb-4">All NFTs</li>
-              <li className="font-light text-xs mb-4">All NFTs</li>
-              <li className="font-light text-xs mb-4">All NFTs</li>
+              <li className="font-bold mb-6 text-sm tracking-wider">Company</li>
+              <li className="font-light text-xs mb-4">About Us</li>
+              <li className="font-light text-xs mb-4">Careers</li>
+              <li className="font-light text-xs mb-4">Contact Us</li>
             </ul>
           </div>
         </div>
