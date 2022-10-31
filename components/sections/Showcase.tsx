@@ -10,10 +10,10 @@ const Showcase = () => {
       className="min-h-screen w-screen flex flex-col justify-center items-center relative overflow-hidden"
       id="showcase"
     >
-      <div className="flex flex-col justify-center items-center w-full h-1/3">
+      <div className="flex flex-col justify-center items-center w-full h-1/3 mb-8">
         <p className="text-3xl font-bold mb-4">Top Creators</p>
-        <p className="font-lighter text-sm">
-          Discover the best nft collections in the world on our site.
+        <p className="text-sm text-center font-light">
+          Discover the best nft collections <br /> in the world on our site.
         </p>
       </div>
 

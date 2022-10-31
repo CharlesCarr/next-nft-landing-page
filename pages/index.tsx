@@ -1,15 +1,9 @@
 import Head from "next/head";
-import About from "../components/sections/About";
-import Companies from "../components/sections/Companies";
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
-import NFTGrid from "../components/sections/NFTGrid";
-import ProjectGrid from "../components/sections/ProjectGrid";
 import Top from "../components/Top";
-import Roadmap from "../components/sections/Roadmap";
 import Showcase from "../components/sections/Showcase";
 import Faq from "../components/sections/Faq";
-import { Inter } from '@next/font/google'
 import Trending from "../components/sections/Trending";
 import Collections from "../components/sections/Collections";
 
@@ -27,14 +21,8 @@ export default function Home() {
       <Trending />
       <Collections />
       <Showcase />
+      {/* <Faq /> */}
       <Footer />
-
-      {/* <About />
-      <Roadmap />
-      <Faq /> */}
-      {/* <Companies />
-      <NFTGrid />
-      <ProjectGrid /> */}
     </div>
   );
 }

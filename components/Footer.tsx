@@ -1,13 +1,22 @@
 const Footer = () => {
   return (
     <div className="h-fit w-screen flex flex-col px-20 items-center justify-end">
-      <div className="w-full h-40 bg-black flex justify-between items-center px-28">
+      <div className="w-full h-40 bg-black flex justify-between items-center px-32">
         <p className="text-3xl font-bold text-white">Join Our Community</p>
-        <button className="border border-white text-white">
-          Launch Discord
-        </button>
+         <button>
+            <a
+              href="#_"
+              className="relative inline-block px-4 py-2 font-medium group"
+            >
+              <span className="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-2 translate-y-2 bg-black border border-white group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
+              <span className="absolute inset-0 w-full h-full bg-white border-2 border-white group-hover:bg-black group-hover:border-white"></span>
+              <span className="relative text-black group-hover:text-white">
+                Launch Discord
+              </span>
+            </a>
+          </button>
       </div>
-      <div className="w-full h-fit bg-white flex justify-between items-center pl-28 mt-10 pb-20">
+      <div className="w-full h-fit bg-white flex justify-between items-center pl-32 mt-10 pb-20">
         <div className="w-1/4 h-full">
           <p className="bg-black text-white font-bold text-xl w-14 flex justify-center items-center mb-3">
             Logo
@@ -32,34 +41,34 @@ const Footer = () => {
         <div className="flex w-2/4 h-full">
           <div className="w-1/4">
             <ul className="m-0 p-0">
-              <li className="font-bold">All NFTs</li>
-              <li>All NFTs</li>
-              <li>All NFTs</li>
-              <li>All NFTs</li>
+              <li className="font-bold mb-6 text-sm tracking-wider">All NFTs</li>
+              <li className="font-light text-xs mb-4">All NFTs</li>
+              <li className="font-light text-xs mb-4">All NFTs</li>
+              <li className="font-light text-xs mb-4">All NFTs</li>
             </ul>
           </div>
           <div className="w-1/4">
             <ul className="m-0 p-0">
-              <li className="font-bold">All NFTs</li>
-              <li>All NFTs</li>
-              <li>All NFTs</li>
-              <li>All NFTs</li>
+              <li className="font-bold mb-6 text-sm tracking-wider">All NFTs</li>
+              <li className="font-light text-xs mb-4">All NFTs</li>
+              <li className="font-light text-xs mb-4">All NFTs</li>
+              <li className="font-light text-xs mb-4">All NFTs</li>
             </ul>
           </div>
           <div className="w-1/4">
             <ul className="m-0 p-0">
-              <li className="font-bold">All NFTs</li>
-              <li>All NFTs</li>
-              <li>All NFTs</li>
-              <li>All NFTs</li>
+              <li className="font-bold mb-6 text-sm tracking-wider">All NFTs</li>
+              <li className="font-light text-xs mb-4">All NFTs</li>
+              <li className="font-light text-xs mb-4">All NFTs</li>
+              <li className="font-light text-xs mb-4">All NFTs</li>
             </ul>
           </div>
           <div className="w-1/4">
             <ul className="m-0 p-0">
-              <li className="font-bold">All NFTs</li>
-              <li>All NFTs</li>
-              <li>All NFTs</li>
-              <li>All NFTs</li>
+              <li className="font-bold mb-6 text-sm tracking-wider">All NFTs</li>
+              <li className="font-light text-xs mb-4">All NFTs</li>
+              <li className="font-light text-xs mb-4">All NFTs</li>
+              <li className="font-light text-xs mb-4">All NFTs</li>
             </ul>
           </div>
         </div>
