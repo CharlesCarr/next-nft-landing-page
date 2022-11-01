@@ -1,5 +1,5 @@
 import React from "react";
-import NFTCard from "./NFTCard";
+import NFTCard from "../NFTCard";
 import { GiDiamonds } from "react-icons/gi";
 
 const Top = () => {
