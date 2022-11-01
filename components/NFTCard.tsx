@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { useEffect, useState } from "react";
 interface NFTCardProps {
   nft: string;
   name: string;
@@ -28,6 +29,43 @@ const NFTCard = ({
   img,
   cardType,
 }: NFTCardProps) => {
+  const [cardDimensions, setCardDimensions] = useState<any>({
+    width: "260",
+    height: "300",
+  });
+  /*
+    Based on cardType can determine the necessary h/w of the Image component ??
+  */
+
+  useEffect(() => {
+    if (cardType === "collections") {
+      setCardDimensions({
+        width: "300",
+        height: "500",
+      });
+    } else if (cardType === "trending-small") {
+      setCardDimensions({
+        width: "260",
+        height: "300",
+      });
+    } else if (cardType === "trending-large") {
+      setCardDimensions({
+        width: "310",
+        height: "280",
+      });
+    } else if (cardType === "top-large") {
+      setCardDimensions({
+        width: "360",
+        height: "300",
+      });
+    } else if (cardType === "top-small") {
+      setCardDimensions({
+        width: "260",
+        height: "300",
+      });
+    }
+  }, []);
+
   return (
     <div
       className={`bg-white ${totalhw} flex flex-col justify-between items-center px-3 border border-black ${
@@ -38,14 +76,14 @@ const NFTCard = ({
         <p className="font-bold text-xl tracking-wider">{nft}</p>
         <p className="text-sm font-light">{name}</p>
       </div>
-      <div className={`${imgheight} w-full flex justify-center items-center`}>
+      {/* <div className={`${imgheight} w-full flex justify-center items-center`}> */}
         <Image
           src={`/images/${img}`}
           alt="nft image"
-          width={"260"}
-          height={"300"}
+          width={cardDimensions.width}
+          height={cardDimensions.height}
         />
-      </div>
+      {/* </div> */}
       <div
         className={`${tbheight} w-full flex justify-between items-center px-4`}
       >
