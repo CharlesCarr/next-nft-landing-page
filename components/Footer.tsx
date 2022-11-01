@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="h-fit w-screen flex flex-col items-center justify-end">
+    <div className="h-fit w-screen flex flex-col items-center justify-end" id="community">
       <div className="w-full h-44 bg-black flex justify-between items-center px-32">
         <p className="text-3xl font-bold text-white">Join Our Community</p>
          <button>

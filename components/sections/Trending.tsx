@@ -32,7 +32,7 @@ const Trending = () => {
   ];
 
   return (
-    <div className="w-screen h-screen relative">
+    <div className="w-screen h-screen relative" id="trending">
       <div className="w-screen h-1/2 bg-black"></div>
       <div className="w-screen h-1/2 bg-white"></div>
       <div className="w-3/4 h-5/6 absolute m-auto top-12 right-0 left-0 bottom-0 grid grid-rows-4 grid-cols-5 gap-3">

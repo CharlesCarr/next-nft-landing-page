@@ -9,7 +9,7 @@ const Showcase = () => {
   return (
     <div
       className="min-h-screen w-screen flex flex-col justify-center items-center relative overflow-hidden"
-      id="showcase"
+      id="creators"
     >
       <div className="flex flex-col justify-center items-center w-full h-1/3 mb-8">
         <p className="text-3xl font-bold mb-4">Top Creators</p>

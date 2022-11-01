@@ -11,22 +11,22 @@ const Nav = () => {
 
           <ul className="flex justify-between items-center list-none border-none">
             <li className="cursor-pointer relative before:absolute before:-bottom-1 before:h-px before:w-full before:origin-left before:scale-x-0 before:bg-black before:transition hover:before:scale-100 mr-6">
-              Home
+              <a href="#home">Home</a>
             </li>
             <li className="cursor-pointer relative before:absolute before:-bottom-1 before:h-px before:w-full before:origin-left before:scale-x-0 before:bg-black before:transition hover:before:scale-100 mr-6">
-              Trending
+              <a href="#trending">Trending</a>
             </li>
             <li className="cursor-pointer relative before:absolute before:-bottom-1 before:h-px before:w-full before:origin-left before:scale-x-0 before:bg-black before:transition hover:before:scale-100 mr-6">
-              Collections
+              <a href="#collections">Collections</a>
             </li>
             <li className="cursor-pointer relative before:absolute before:-bottom-1 before:h-px before:w-full before:origin-left before:scale-x-0 before:bg-black before:transition hover:before:scale-100 mr-6">
-              Creators
+              <a href="#creators">Creators</a>
             </li>
             <li className="cursor-pointer relative before:absolute before:-bottom-1 before:h-px before:w-full before:origin-left before:scale-x-0 before:bg-black before:transition hover:before:scale-100 mr-6">
-              Community
+              <a href="#community">Community</a>
             </li>
             <li className="cursor-pointer relative before:absolute before:-bottom-1 before:h-px before:w-full before:origin-left before:scale-x-0 before:bg-black before:transition hover:before:scale-100">
-              FAQ
+              <a href="#faq">FAQ</a>
             </li>
             <li className="mx-0 my-4 cursor-pointer px-3">
               <div className="hidden">

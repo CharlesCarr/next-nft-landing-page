@@ -60,7 +60,7 @@ const Collections = () => {
   ];
 
   return (
-    <div className="h-screen w-full px-20 mb-20">
+    <div className="h-screen min-h-screen w-full px-20 mb-52" id="collections">
       <div className="flex w-full h-20 justify-between items-center">
         <p className="text-3xl font-bold">Explore Collections</p>
         <p className="font-light text-xs pr-4">
