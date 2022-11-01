@@ -6,7 +6,7 @@ const About = () => {
     <div className="bg-black md:h-screen min-h-screen w-full flex flex-col md:flex-row justify-center items-center px-16 md:px-24 py-20 text-white" id="about">
       <div className="flex flex-row md:flex-col items-center justify-center h-72 md:h-full w-full md:w-1/3 border border-white">
         <div className="flex flex-col items-center justify-center h-full md:h-1/2 w-full border px-2 sm:px-6">
-          <p className="mb-2 sm:mb-4 font-bold text-base sm:text-2xl">What is an NFT?</p>
+          <p className="mb-2 sm:mb-4 font-bold text-base sm:text-2xl">What is an <span className="text-green-300">NFT</span>{" "}?</p>
           <p className="text-xs sm:text-sm text-center leading-6">
             NFT stands for non-fungible token. NFTs are tokens that we can use
             to represent ownership of unique items. They let us tokenize things
@@ -58,10 +58,10 @@ const About = () => {
               options={{
                 strings: [
                   "Lebron surfing big waves in Hawaii",
-                  "Tom Brady riding a camel through a deck of cards",
                   "Philly phanatic on a yacht",
                   "Red Bull Racing Submarine in Space",
                   "Stealing the Declaration of Independence from the World Series",
+                  "Tom Brady riding a camel through a deck of cards",
                   "Three Musketeers watching Thursday Night Football",
                 ],
                 autoStart: true,

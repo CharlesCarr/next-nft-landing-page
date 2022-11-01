@@ -66,14 +66,14 @@ const Collections = () => {
   ];
 
   return (
-    <div className="h-full min-h-screen w-full px-6 sm:px-10 md:px-20 md:mb-52" id="collections">
+    <div className="h-full min-h-screen w-full px-6 sm:px-10 md:px-20 pt-10" id="collections">
       <div className="flex w-full h-20 justify-between items-center">
         <p className="text-3xl font-bold">Explore Collections</p>
         <p className="font-light text-xs pr-4">
           Discover the best nft collections <br /> in the world on our site.
         </p>
       </div>
-      <div className="flex w-full h-14">
+      <div className="flex w-full h-14 mb-2">
         <ul className="p-0 m-0 w-full flex justify-start items-center">
           <li className="border border-black rounded-2xl px-2 sm:px-4 py-1 text-xs mr-2 sm:mr-8">
             Sport 1
