@@ -3,6 +3,33 @@ import NFTCard from "../NFTCard";
 import { GiDiamonds } from "react-icons/gi";
 
 const Top = () => {
+  const topNFTs = [
+    {
+      nft: "NFT #2",
+      name: "@jonah",
+      price: "1.7 ETH",
+      time: "04 : 10 : 15",
+      tbheight: "ts-top-bottom",
+      imgheight: "ts-img",
+      totalhw: "ts-total",
+      rotation: "-rotate-[14deg]",
+      background: true,
+      position: "bottom-6 right-6 z-0",
+      img: 'world-series-one.png',
+    },
+    {
+      nft: "NFT #1",
+      name: "@mark",
+      price: "1.0234 ETH",
+      time: "03 : 08 : 15",
+      tbheight: "tl-top-bottom",
+      imgheight: "tl-img",
+      totalhw: "tl-total",
+      rotation: "rotate-[10deg]",
+      background: true,
+      img: 'red-bull-one.png',
+    },
+  ];
   return (
     // calc height for this as 100vh - nav height (in global css)
     <div
@@ -15,7 +42,7 @@ const Top = () => {
             <GiDiamonds className="h-16 w-16 absolute bottom-32 -right-10 sm:bottom-20 sm:right-8" />
             <GiDiamonds className="h-8 w-8 absolute bottom-24 -right-14 sm:right-4 sm:bottom-12" />
             <p className="text-5xl font-bold mb-4 tracking-wider">
-              Collect Super <br/> Rare Digital
+              Collect Super <br /> Rare Digital
               <br /> Artworks
             </p>
             <p className="mb-4 font-light text-sm">
@@ -37,29 +64,9 @@ const Top = () => {
         </div>
 
         <div className="w-1/2 h-full flex-col justify-center items-center mr-3 sm:mr-6 md:mr-24 lg:mr-52 relative pt-10 hidden sm:flex">
-          <NFTCard
-            nft={"NFT #2"}
-            name={"@jonah"}
-            price={"1.7 ETH"}
-            time={"04 : 10 : 15"}
-            tbheight={"ts-top-bottom"}
-            imgheight={"ts-img"}
-            totalhw={"ts-total"}
-            rotation={"-rotate-[14deg]"}
-            background={true}
-            position={"bottom-6 right-6 z-0"}
-          />
-          <NFTCard
-            nft={"NFT #1"}
-            name={"@mark"}
-            price={"1.0234 ETH"}
-            time={"03 : 08 : 15"}
-            tbheight={"tl-top-bottom"}
-            imgheight={"tl-img"}
-            totalhw={"tl-total"}
-            rotation={"rotate-[10deg]"}
-            background={true}
-          />
+          {topNFTs.map((nft) => (
+            <NFTCard key={nft.nft} {...nft} />
+          ))}
         </div>
       </div>
 

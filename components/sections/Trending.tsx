@@ -10,6 +10,7 @@ const Trending = () => {
       imgheight: "tl-img",
       totalhw: "trs-total",
       background: false,
+      img: "fanatic/fanatic-one.png",
     },
     {
       nft: "NFT 2",
@@ -19,6 +20,7 @@ const Trending = () => {
       imgheight: "tl-img",
       totalhw: "trs-total",
       background: false,
+      img: "lebron/lebron-james-one.png",
     },
     {
       nft: "NFT 3",
@@ -28,6 +30,7 @@ const Trending = () => {
       imgheight: "tl-img",
       totalhw: "trs-total",
       background: false,
+      img: "thursday/thursday-football-one.png",
     },
   ];
 
@@ -52,7 +55,16 @@ const Trending = () => {
           <NFTCard {...trendingNFTs[2]} />
         </div>
         <div className="bg-slate-100 row-start-1 row-end-4 col-start-3 md:col-start-4 col-end-6 flex justify-center items-center border border-black">
-          <NFTCard nft="NFT 4" name="@charlie" price="2 ETH" totalhw="trs-total" tbheight="trs-tb" imgheight="trs-img" background={false} />
+          <NFTCard
+            nft="NFT 4"
+            name="@charlie"
+            price="2 ETH"
+            totalhw="trs-total"
+            tbheight="trs-tb"
+            imgheight="trs-img"
+            background={false}
+            img="brady/tom-brady-one.png"
+          />
         </div>
       </div>
     </div>

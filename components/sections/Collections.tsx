@@ -11,6 +11,7 @@ const Collections = () => {
       imgheight: "tl-img",
       totalhw: "trs-total",
       background: false,
+      img: 'brady/tom-brady-one.png',
     },
     {
       nft: "NFT 2",
@@ -20,6 +21,7 @@ const Collections = () => {
       imgheight: "tl-img",
       totalhw: "trs-total",
       background: false,
+      img: 'fanatic/fanatic-one.png'
     },
     {
       nft: "NFT 3",
@@ -29,6 +31,7 @@ const Collections = () => {
       imgheight: "tl-img",
       totalhw: "trs-total",
       background: false,
+      img: 'lebron/lebron-james-one.png',
     },
     {
       nft: "NFT 4",
@@ -38,6 +41,7 @@ const Collections = () => {
       imgheight: "tl-img",
       totalhw: "trs-total",
       background: false,
+      img: 'red-bull/red-bull-one.png',
     },
     {
       nft: "NFT 5",
@@ -47,6 +51,7 @@ const Collections = () => {
       imgheight: "tl-img",
       totalhw: "trs-total",
       background: false,
+      img: 'thursday/thursday-football-one.png',
     },
     {
       nft: "NFT 6",
@@ -56,6 +61,7 @@ const Collections = () => {
       imgheight: "tl-img",
       totalhw: "trs-total",
       background: false,
+      img: 'world-series/world-series-one.png'
     },
   ];
 

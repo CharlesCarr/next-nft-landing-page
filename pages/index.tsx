@@ -6,6 +6,8 @@ import Showcase from "../components/sections/Showcase";
 // import Faq from "../components/sections/Faq";
 import Trending from "../components/sections/Trending";
 import Collections from "../components/sections/Collections";
+import Image from "next/image";
+import RedBull from "../components/images/red-bull-one.png";
 
 export default function Home() {
   return (
@@ -15,6 +17,8 @@ export default function Home() {
         <meta name="description" content="NFT Marketplace Landing Page" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      {/* <Image src={RedBull} alt="test image" width={500} height={500} /> */}
 
       <Nav />
       <Top />
