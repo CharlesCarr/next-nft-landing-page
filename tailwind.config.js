@@ -18,6 +18,7 @@ module.exports = {
       animation: {
         move: 'move linear infinite 25s',
         reverse: 'move linear infinite reverse 20s',
+        'spin-slow': 'spin 3s linear infinite',
       }
     },
     fontFamily: {

@@ -30,17 +30,18 @@ const Nav = () => {
               <a href="#trending">Trending</a>
             </li>
             <li className="cursor-pointer relative before:absolute before:-bottom-1 before:h-px before:w-full before:origin-left before:scale-x-0 before:bg-black before:transition hover:before:scale-100 mr-6">
+              <a href="#about">About</a>
+            </li>
+            <li className="cursor-pointer relative before:absolute before:-bottom-1 before:h-px before:w-full before:origin-left before:scale-x-0 before:bg-black before:transition hover:before:scale-100 mr-6">
               <a href="#collections">Collections</a>
             </li>
             <li className="cursor-pointer relative before:absolute before:-bottom-1 before:h-px before:w-full before:origin-left before:scale-x-0 before:bg-black before:transition hover:before:scale-100 mr-6">
               <a href="#creators">Creators</a>
             </li>
-            <li className="cursor-pointer relative before:absolute before:-bottom-1 before:h-px before:w-full before:origin-left before:scale-x-0 before:bg-black before:transition hover:before:scale-100 mr-6">
+            <li className="cursor-pointer relative before:absolute before:-bottom-1 before:h-px before:w-full before:origin-left before:scale-x-0 before:bg-black before:transition hover:before:scale-100">
               <a href="#community">Community</a>
             </li>
-            <li className="cursor-pointer relative before:absolute before:-bottom-1 before:h-px before:w-full before:origin-left before:scale-x-0 before:bg-black before:transition hover:before:scale-100">
-              <a href="#faq">FAQ</a>
-            </li>
+            
             <li className="mx-0 my-4 cursor-pointer px-3">
               <div className="hidden">
                 <button></button>
