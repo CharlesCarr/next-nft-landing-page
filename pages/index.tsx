@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import Nav from "../components/Nav";
 import Top from "../components/sections/Top";
 import Showcase from "../components/sections/Showcase";
-import Faq from "../components/sections/Faq";
+// import Faq from "../components/sections/Faq";
 import Trending from "../components/sections/Trending";
 import Collections from "../components/sections/Collections";
 
