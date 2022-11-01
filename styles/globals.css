@@ -41,6 +41,35 @@ html {
   height: 140px;
 }
 
+/* Medium Screen Size for Top NFTs */
+@media only screen and (max-width: 768px) {
+  .tl-total {
+    width: 220px;
+    height: 320px;
+  }
+  
+  .tl-top-bottom {
+    height: 60px;
+  }
+  
+  .tl-img {
+    height: 200px;
+  }
+  
+  .ts-total {
+    width: 180px;
+    height: 250px;
+  }
+  
+  .ts-top-bottom {
+    height: 50px;
+  }
+  
+  .ts-img {
+    height: 100px;
+  }
+}
+
 /* total: height,
 top: (Number(height) * (1/5)),
 img: (Number(height) * (0.375)),
