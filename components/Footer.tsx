@@ -19,7 +19,7 @@ const Footer = () => {
       <div className="w-full h-fit bg-white flex justify-between items-center pl-32 mt-10 pb-20">
         <div className="w-1/4 h-full">
           <p className="bg-black text-white font-bold text-xl w-14 flex justify-center items-center mb-3">
-            logo
+            drops
           </p>
           <p className="font-light text-xs w-80 mb-3 tracking-wider leading-6">
             The worlds first and largest digital marketplace for crypto
