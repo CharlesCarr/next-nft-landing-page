@@ -1,5 +1,6 @@
 import React from "react";
 import NFTCard from "./NFTCard";
+import { GiDiamonds } from "react-icons/gi";
 
 const Top = () => {
   return (
@@ -9,7 +10,9 @@ const Top = () => {
       id="home"
     >
       <div className="w-full h-3/4 flex justify-center items-center">
-        <div className="w-1/2 h-full flex flex-col justify-center items-start pl-52">
+        <div className="w-1/2 h-full flex flex-col justify-center items-start pl-52 relative">
+          <GiDiamonds className="h-16 w-16 absolute right-16" />
+          <GiDiamonds className="h-8 w-8 absolute right-10 top-60" />
           <p className="text-5xl font-bold mb-4 tracking-wider leading-snug">
             Collect Super <br /> Rare Digital
             <br /> Artworks

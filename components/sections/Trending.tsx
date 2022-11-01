@@ -35,7 +35,7 @@ const Trending = () => {
     <div className="w-screen h-screen relative">
       <div className="w-screen h-1/2 bg-black"></div>
       <div className="w-screen h-1/2 bg-white"></div>
-      <div className="w-3/4 h-5/6 absolute m-auto top-0 right-0 left-0 bottom-0 grid grid-rows-4 grid-cols-5 gap-3">
+      <div className="w-3/4 h-5/6 absolute m-auto top-12 right-0 left-0 bottom-0 grid grid-rows-4 grid-cols-5 gap-3">
         <div className="row-start-1 row-end-2 col-start-1 col-end-4 flex justify-start items-start text-white text-3xl font-bold tracking-wider">
           <p>
             Trending Artworks <br /> This Week

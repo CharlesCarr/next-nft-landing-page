@@ -3,7 +3,7 @@ import React from "react";
 const Nav = () => {
   return (
     <div className="w-full h-20 flex justify-center items-center">
-      <div className="border-b-black border-x-0 border w-full mx-20 h-full text-center flex items-center justify-center text-xs tracking-wider">
+      <div className="border-b-black border-x-0 border-t-0 border w-full mx-20 h-full text-center flex items-center justify-center text-xs tracking-wider">
         <nav className="flex justify-between items-center w-full border-none">
           <p className="text-xl font-bold">logo</p>
 
