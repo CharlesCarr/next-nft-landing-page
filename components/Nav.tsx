@@ -1,8 +1,20 @@
-import React from "react";
+import { useState } from "react";
+import { IoMdClose } from "react-icons/io";
 
 const Nav = () => {
+  const [showToast, setShowToast] = useState(false);
+
   return (
     <div className="w-full h-20 flex justify-center items-center">
+      {showToast ? (
+        <div className="absolute top-24 right-20 border border-black text-xs px-4 py-2 w-60 flex items-center justify-between rounded-2xl">
+          <p>Sample site, no wallet needed!</p>
+          <IoMdClose
+            className="w-4 h-4 cursor-pointer"
+            onClick={() => setShowToast(!showToast)}
+          />
+        </div>
+      ) : null}
       <div className="border-b-black border-x-0 border-t-0 border w-full mx-20 h-full text-center flex items-center justify-center text-xs tracking-wider">
         <nav className="flex justify-between items-center w-full border-none">
           <p className="text-xl font-bold">logo</p>
@@ -35,19 +47,21 @@ const Nav = () => {
             </li>
           </ul>
 
-          <a
-            href="#_"
-            className="relative px-5 py-3 overflow-hidden font-medium text-black bg-white border border-gray-200 rounded-lg shadow-inner group"
-          >
-            <span className="absolute top-0 left-0 w-0 h-0 transition-all duration-200 border-t-2 border-gray-600 group-hover:w-full ease"></span>
-            <span className="absolute bottom-0 right-0 w-0 h-0 transition-all duration-200 border-b-2 border-gray-600 group-hover:w-full ease"></span>
-            <span className="absolute top-0 left-0 w-full h-0 transition-all duration-300 delay-200 bg-gray-600 group-hover:h-full ease"></span>
-            <span className="absolute bottom-0 left-0 w-full h-0 transition-all duration-300 delay-200 bg-gray-600 group-hover:h-full ease"></span>
-            <span className="absolute inset-0 w-full h-full duration-300 delay-300 bg-gray-900 opacity-0 group-hover:opacity-100"></span>
-            <span className="relative transition-colors duration-300 delay-200 group-hover:text-white ease">
-              Connect Wallet
-            </span>
-          </a>
+          <button onClick={() => setShowToast(!showToast)}>
+            <a
+              // href="#_"
+              className="relative px-5 py-3 overflow-hidden font-medium text-black bg-white border border-gray-200 rounded-lg shadow-inner group"
+            >
+              <span className="absolute top-0 left-0 w-0 h-0 transition-all duration-200 border-t-2 border-gray-600 group-hover:w-full ease"></span>
+              <span className="absolute bottom-0 right-0 w-0 h-0 transition-all duration-200 border-b-2 border-gray-600 group-hover:w-full ease"></span>
+              <span className="absolute top-0 left-0 w-full h-0 transition-all duration-300 delay-200 bg-gray-600 group-hover:h-full ease"></span>
+              <span className="absolute bottom-0 left-0 w-full h-0 transition-all duration-300 delay-200 bg-gray-600 group-hover:h-full ease"></span>
+              <span className="absolute inset-0 w-full h-full duration-300 delay-300 bg-gray-900 opacity-0 group-hover:opacity-100"></span>
+              <span className="relative transition-colors duration-300 delay-200 group-hover:text-white ease">
+                Connect Wallet
+              </span>
+            </a>
+          </button>
         </nav>
       </div>
     </div>

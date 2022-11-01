@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 #home {
   height: calc(100vh - 5rem);
   min-height: calc(100vh - 5rem);
