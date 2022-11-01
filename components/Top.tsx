@@ -31,7 +31,7 @@ const Top = () => {
           </button>
         </div>
 
-        <div className="w-1/2 h-full flex flex-col justify-center items-center mr-52 relative">
+        <div className="w-1/2 h-full flex flex-col justify-center items-center mr-52 relative pt-10">
           <NFTCard
             nft={"NFT #2"}
             name={"@jonah"}
@@ -40,9 +40,9 @@ const Top = () => {
             tbheight={"ts-top-bottom"}
             imgheight={"ts-img"}
             totalhw={"ts-total"}
-            rotation={"-rotate-12"}
+            rotation={"-rotate-[14deg]"}
             background={true}
-            position={"bottom-12 right-8 z-0"}
+            position={"bottom-6 right-6 z-0"}
           />
           <NFTCard
             nft={"NFT #1"}
@@ -52,7 +52,7 @@ const Top = () => {
             tbheight={"tl-top-bottom"}
             imgheight={"tl-img"}
             totalhw={"tl-total"}
-            rotation={"rotate-6"}
+            rotation={"rotate-[10deg]"}
             background={true}
           />
         </div>
