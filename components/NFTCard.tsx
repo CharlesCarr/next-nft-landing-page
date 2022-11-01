@@ -11,6 +11,7 @@ interface NFTCardProps {
   background: boolean;
   position?: string;
   img: string;
+  cardType: string;
 }
 
 const NFTCard = ({
@@ -25,20 +26,25 @@ const NFTCard = ({
   background,
   position,
   img,
+  cardType,
 }: NFTCardProps) => {
-
   return (
     <div
-      className={`bg-white ${totalhw} flex flex-col justify-between items-center px-3 border border-black ${rotation} ${
-        background ? `shadow-4xl absolute ${position}` : null
-      }`}
+      className={`bg-white ${totalhw} flex flex-col justify-between items-center px-3 border border-black ${
+        cardType === "collections" ? "hover:shadow-4xl" : null
+      } ${rotation} ${background ? `shadow-4xl absolute ${position}` : null} `}
     >
       <div className={`flex justify-between items-center ${tbheight} w-full`}>
         <p className="font-bold text-xl tracking-wider">{nft}</p>
         <p className="text-sm font-light">{name}</p>
       </div>
       <div className={`${imgheight} w-full flex justify-center items-center`}>
-        <Image src={`/images/${img}`} alt="nft image" width={"260"} height={"300"} />
+        <Image
+          src={`/images/${img}`}
+          alt="nft image"
+          width={"260"}
+          height={"300"}
+        />
       </div>
       <div
         className={`${tbheight} w-full flex justify-between items-center px-4`}

@@ -5,7 +5,7 @@ import { GiDiamonds } from "react-icons/gi";
 const Top = () => {
   const topNFTs = [
     {
-      nft: "NFT #2",
+      nft: "DoI WS #2",
       name: "@jonah",
       price: "1.7 ETH",
       time: "04 : 10 : 15",
@@ -16,9 +16,10 @@ const Top = () => {
       background: true,
       position: "bottom-6 right-6 z-0",
       img: 'world-series-one.png',
+      cardType: 'top-small',
     },
     {
-      nft: "NFT #1",
+      nft: "RB Sub #1",
       name: "@mark",
       price: "1.0234 ETH",
       time: "03 : 08 : 15",
@@ -28,6 +29,7 @@ const Top = () => {
       rotation: "rotate-[10deg]",
       background: true,
       img: 'red-bull-one.png',
+      cardType: 'top-large',
     },
   ];
   return (

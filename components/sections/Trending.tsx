@@ -3,7 +3,7 @@ import NFTCard from "../NFTCard";
 const Trending = () => {
   const trendingNFTs = [
     {
-      nft: "NFT 1",
+      nft: "PP YACHT 1",
       name: "@tom",
       price: "1 ETH",
       tbheight: "tl-top-bottom",
@@ -11,9 +11,10 @@ const Trending = () => {
       totalhw: "trs-total",
       background: false,
       img: "fanatic/fanatic-one.png",
+      cardType: 'trending-small',
     },
     {
-      nft: "NFT 2",
+      nft: "LJ SURF 1",
       name: "@mark",
       price: "1 ETH",
       tbheight: "tl-top-bottom",
@@ -21,9 +22,10 @@ const Trending = () => {
       totalhw: "trs-total",
       background: false,
       img: "lebron/lebron-james-one.png",
+      cardType: 'trending-small',
     },
     {
-      nft: "NFT 3",
+      nft: "TNF M 1",
       name: "@mike",
       price: "1 ETH",
       tbheight: "tl-top-bottom",
@@ -31,6 +33,7 @@ const Trending = () => {
       totalhw: "trs-total",
       background: false,
       img: "thursday/thursday-football-one.png",
+      cardType: 'trending-small',
     },
   ];
 
@@ -56,7 +59,7 @@ const Trending = () => {
         </div>
         <div className="bg-slate-100 row-start-1 row-end-4 col-start-3 md:col-start-4 col-end-6 flex justify-center items-center border border-black">
           <NFTCard
-            nft="NFT 4"
+            nft="TB12 C 1"
             name="@charlie"
             price="2 ETH"
             totalhw="trs-total"
@@ -64,6 +67,7 @@ const Trending = () => {
             imgheight="trs-img"
             background={false}
             img="brady/tom-brady-one.png"
+            cardType="trending-large"
           />
         </div>
       </div>

@@ -4,7 +4,7 @@ import NFTCard from "../NFTCard";
 const Collections = () => {
   const sampleNFTs = [
     {
-      nft: "NFT 1",
+      nft: "TB12 C 1",
       name: "@tom",
       price: "1 ETH",
       tbheight: "tl-top-bottom",
@@ -12,19 +12,21 @@ const Collections = () => {
       totalhw: "trs-total",
       background: false,
       img: 'brady/tom-brady-one.png',
+      cardType: 'collections',
     },
     {
-      nft: "NFT 2",
+      nft: "PP YACHT 1",
       name: "@mark",
       price: "1 ETH",
       tbheight: "tl-top-bottom",
       imgheight: "tl-img",
       totalhw: "trs-total",
       background: false,
-      img: 'fanatic/fanatic-one.png'
+      img: 'fanatic/fanatic-one.png',
+      cardType: 'collections',
     },
     {
-      nft: "NFT 3",
+      nft: "LBJ SURF 1",
       name: "@mike",
       price: "1 ETH",
       tbheight: "tl-top-bottom",
@@ -32,9 +34,10 @@ const Collections = () => {
       totalhw: "trs-total",
       background: false,
       img: 'lebron/lebron-james-one.png',
+      cardType: 'collections',
     },
     {
-      nft: "NFT 4",
+      nft: "RB SUB 1",
       name: "@tom",
       price: "1 ETH",
       tbheight: "tl-top-bottom",
@@ -42,9 +45,10 @@ const Collections = () => {
       totalhw: "trs-total",
       background: false,
       img: 'red-bull/red-bull-one.png',
+      cardType: 'collections',
     },
     {
-      nft: "NFT 5",
+      nft: "TNF M 1",
       name: "@mark",
       price: "1 ETH",
       tbheight: "tl-top-bottom",
@@ -52,16 +56,18 @@ const Collections = () => {
       totalhw: "trs-total",
       background: false,
       img: 'thursday/thursday-football-one.png',
+      cardType: 'collections',
     },
     {
-      nft: "NFT 6",
+      nft: "DoI WS 1",
       name: "@mike",
       price: "1 ETH",
       tbheight: "tl-top-bottom",
       imgheight: "tl-img",
       totalhw: "trs-total",
       background: false,
-      img: 'world-series/world-series-one.png'
+      img: 'world-series/world-series-one.png',
+      cardType: 'collections',
     },
   ];
 
