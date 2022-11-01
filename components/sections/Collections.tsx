@@ -60,7 +60,7 @@ const Collections = () => {
   ];
 
   return (
-    <div className="h-screen min-h-screen w-full px-20 mb-52" id="collections">
+    <div className="h-full min-h-screen w-full px-6 sm:px-10 md:px-20 md:mb-52" id="collections">
       <div className="flex w-full h-20 justify-between items-center">
         <p className="text-3xl font-bold">Explore Collections</p>
         <p className="font-light text-xs pr-4">
@@ -69,27 +69,27 @@ const Collections = () => {
       </div>
       <div className="flex w-full h-14">
         <ul className="p-0 m-0 w-full flex justify-start items-center">
-          <li className="border border-black rounded-2xl px-4 py-1 text-xs mr-8">
+          <li className="border border-black rounded-2xl px-2 sm:px-4 py-1 text-xs mr-2 sm:mr-8">
             Sport 1
           </li>
-          <li className="border border-black rounded-2xl px-4 py-1 text-xs mr-8">
+          <li className="border border-black rounded-2xl px-2 sm:px-4 py-1 text-xs mr-2 sm:mr-8">
             Sport 2
           </li>
-          <li className="border border-black rounded-2xl px-4 py-1 text-xs mr-8">
+          <li className="border border-black rounded-2xl px-2 sm:px-4 py-1 text-xs mr-2 sm:mr-8">
             Sport 3
           </li>
-          <li className="border border-black rounded-2xl px-4 py-1 text-xs mr-8">
+          <li className="border border-black rounded-2xl px-2 sm:px-4 py-1 text-xs mr-2 sm:mr-8">
             Sport 4
           </li>
-          <li className="border border-black rounded-2xl px-4 py-1 text-xs mr-8">
+          <li className="border border-black rounded-2xl px-2 sm:px-4 py-1 text-xs mr-2 sm:mr-8">
             Sport 5
           </li>
-          <li className="border border-black rounded-2xl px-4 py-1 text-xs">
+          <li className="border border-black rounded-2xl px-2 sm:px-4 py-1 text-xs">
             Sport 6
           </li>
         </ul>
       </div>
-      <div className="w-full h-4/6 grid grid-cols-3 gap-x-10 gap-6">
+      <div className="w-full h-4/6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-10 gap-6">
         {sampleNFTs.map((nft: any) => <NFTCard key={nft} {...nft} />)}
       </div>
     </div>
