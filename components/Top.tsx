@@ -31,9 +31,21 @@ const Top = () => {
           </button>
         </div>
 
-        <div className="w-1/2 h-full flex flex-col justify-center items-center">
+        <div className="w-1/2 h-full flex flex-col justify-center items-center mr-52 relative">
           <NFTCard
-            nft={"Monkey #2"}
+            nft={"NFT #2"}
+            name={"@jonah"}
+            price={"1.7 ETH"}
+            time={"04 : 10 : 15"}
+            tbheight={"ts-top-bottom"}
+            imgheight={"ts-img"}
+            totalhw={"ts-total"}
+            rotation={"-rotate-12"}
+            background={true}
+            position={"bottom-12 right-8 z-0"}
+          />
+          <NFTCard
+            nft={"NFT #1"}
             name={"@mark"}
             price={"1.0234 ETH"}
             time={"03 : 08 : 15"}
@@ -44,17 +56,8 @@ const Top = () => {
             background={true}
           />
         </div>
-
-        {/* <div className="absolute bottom-8 right-[90%] w-28 h-28 border rounded-full">
-          <span className="w-14 h-14 flex justify-center items-center rounded-full absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 bg-slate-100 text-black">
-          &#x2193;
-          </span>
-          {/* <Image width={500} height={400} src={'test'} alt="NFT"></Image> */}
-
-        {/* </div>  */}
       </div>
 
-{/* border border-black */}
       <div className="bg-white w-full  flex justify-start items-center pl-52">
         <div className="pr-4 flex flex-col justify-center items-center mr-4">
           <p className="font-bold text-3xl">30k+</p>

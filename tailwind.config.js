@@ -8,6 +8,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        '4xl': '-15px 15px 0px 0px',
+      },
       keyframes: {
         'move': {
           '0%': { transform: 'translate(100%)'},

@@ -20,7 +20,21 @@
 }
 
 .tl-img {
-  height: 150px;
+  height: 230px;
+}
+
+/* TOP SECTION SMALL NFT */
+.ts-total {
+  width: 240px;
+  height: 260px;
+}
+
+.ts-top-bottom {
+  height: 60px;
+}
+
+.ts-img {
+  height: 140px;
 }
 
 /* total: height,

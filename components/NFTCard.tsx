@@ -8,6 +8,7 @@ interface NFTCardProps {
   totalhw: string;
   rotation?: string;
   background: boolean;
+  position?: string;
 }
 
 const NFTCard = ({
@@ -20,10 +21,11 @@ const NFTCard = ({
   totalhw,
   rotation,
   background,
+  position,
 }: NFTCardProps) => {
   return (
     <div
-      className={`bg-white ${totalhw} flex flex-col justify-center items-center px-3 border-2 border-black ${rotation}`}
+      className={`bg-white ${totalhw} flex flex-col justify-between items-center px-3 border border-black ${rotation} ${background ? `shadow-4xl absolute ${position}` : null}`}
     >
       <div className={`flex justify-between items-center ${tbheight} w-full`}>
         <p className="font-bold text-xl tracking-wider">{nft}</p>

@@ -60,7 +60,7 @@ const Collections = () => {
   ];
 
   return (
-    <div className="h-screen w-full px-20">
+    <div className="h-screen w-full px-20 mb-20">
       <div className="flex w-full h-20 justify-between items-center">
         <p className="text-3xl font-bold">Explore Collections</p>
         <p className="font-light text-xs pr-4">
@@ -89,7 +89,7 @@ const Collections = () => {
           </li>
         </ul>
       </div>
-      <div className="w-full h-4/6 grid grid-cols-3 gap-3">
+      <div className="w-full h-4/6 grid grid-cols-3 gap-x-10 gap-6">
         {sampleNFTs.map((nft: any) => <NFTCard key={nft} {...nft} />)}
       </div>
     </div>
