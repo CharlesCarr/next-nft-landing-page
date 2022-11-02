@@ -1,34 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 'NFT Collection Landing Page'
 
-## Getting Started
+[Live App Link](https://next-nft-landing-page.vercel.app/)
 
-First, run the development server:
+NFT collection landing page built with TypeScript/React/Next.js/TailwindCSS to display AI generated NFT collections
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Project Description
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This is a professional enterprise landing page to display NFT collections with a clean and modern design. NFT images were created using StarryAI's AI generation. Users are able to view and filter by different collections.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+#### Areas of Focus 
+- Clean, modern design using Tailwind CSS
+- Filtering state of NFT collections with grid display
+- Managing and Lifting State with useState() hook to dynamically change UI
+- Optimizing image quality using Next.js Image component
+- Libraries for animations and typewriter effects
+- Custom reusable card component for NFT display in different states
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+#### Challenges
+Greatest challenge in this project was implementing a pixel perfect design from modern inspiration to provide a modern, professional feel of a marketing landing page for an NFT collection. Chose TailwindCSS to successfully achieve using utility classes.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Flow of Website (Sections)
 
-## Learn More
+1. Main landing page with offset and overlapping NFT cards
+2. Top trending NFTs section
+3. Section to educate user on NFTs and the inspiration for the collections
+4. Filtered grid of different collections
+5. Animated display of creators
+6. Footer with call to action and additional resources
 
-To learn more about Next.js, take a look at the following resources:
+## Background
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### Why I Built This
+I built this website after becoming inspired by many other NFT website designs and their modern approach. I wanted to test my ability in developing from a modern design using TailwindCSS and other modern tools. My other inspiration was after using the StarryAI platform for fun to create AI generated images. My roomates and I were testing the AI abilities by prompting with a sports themed with random context to see what it would come up with. I used an Impressionist theme that resulted in some interesting creations that are displayed as collections in this website.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+#### Potential Next Steps
+- Functionality to edit each 'Today' workout live when user is working out to reflect any changes in the workout for that day
+- Styling improvements to have everything within the viewport and not as much scrolling
 
-## Deploy on Vercel
+## Hosting
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Hosted with Vercel [NFT Collection Landing Page](https://next-nft-landing-page.vercel.app/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Screenshots
+![NFT Screen 1](/images/brady/tom-brady-one.png)
+
