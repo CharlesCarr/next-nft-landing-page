@@ -42,5 +42,5 @@ I built this website after becoming inspired by many other NFT website designs a
 Hosted with Vercel [NFT Collection Landing Page](https://next-nft-landing-page.vercel.app/)
 
 ## Screenshots
-![NFT Screen 1](/images/brady/tom-brady-one.png)
+![NFT Screen 1](/public/images/brady/tom-brady-one.png)
 
