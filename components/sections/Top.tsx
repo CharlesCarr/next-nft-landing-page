@@ -19,7 +19,7 @@ const Top = () => {
       cardType: 'top-small',
     },
     {
-      nft: "RB Sub #1",
+      nft: "RB SUB #1",
       name: "@mark",
       price: "1.0234 ETH",
       time: "03 : 08 : 15",

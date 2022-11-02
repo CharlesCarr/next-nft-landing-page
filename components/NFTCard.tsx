@@ -2,6 +2,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 interface NFTCardProps {
   nft: string;
+  fullTitle?: string;
   name: string;
   price: string;
   time?: string;
@@ -17,6 +18,7 @@ interface NFTCardProps {
 
 const NFTCard = ({
   nft,
+  fullTitle,
   name,
   price,
   time,
@@ -36,12 +38,13 @@ const NFTCard = ({
   /*
     Based on cardType can determine the necessary h/w of the Image component ??
   */
+ console.log(fullTitle);
 
   useEffect(() => {
     if (cardType === "collections") {
       setCardDimensions({
-        width: "300",
-        height: "500",
+        width: "250",
+        height: "250",
       });
     } else if (cardType === "trending-small") {
       setCardDimensions({
@@ -68,7 +71,7 @@ const NFTCard = ({
 
   return (
     <div
-      className={`bg-white ${totalhw} flex flex-col justify-between items-center px-3 border border-black ${
+      className={`bg-white ${totalhw} flex flex-col justify-between items-center px-6 border border-black ${
         cardType === "collections" ? "hover:shadow-4xl" : null
       } ${rotation} ${background ? `shadow-4xl absolute ${position}` : null} `}
     >
@@ -76,14 +79,14 @@ const NFTCard = ({
         <p className="font-bold text-xl tracking-wider">{nft}</p>
         <p className="text-sm font-light">{name}</p>
       </div>
-      {/* <div className={`${imgheight} w-full flex justify-center items-center`}> */}
+      <div className={`${imgheight} w-full flex justify-center items-center`}>
         <Image
           src={`/images/${img}`}
           alt="nft image"
           width={cardDimensions.width}
           height={cardDimensions.height}
         />
-      {/* </div> */}
+      </div>
       <div
         className={`${tbheight} w-full flex justify-between items-center px-4`}
       >
@@ -97,6 +100,12 @@ const NFTCard = ({
             <p className="font-semibold text-xs">{time}</p>
           </div>
         ) : null}
+        {/* {cardType === "collections" ? (
+          <div className="flex flex-col justify-center items-center">
+          <p className="font-light text-xs">AI Prompt:</p>
+          <p className="font-semibold text-xs w-24">{`"${fullTitle}"`}</p>
+        </div>
+        ): null} */}
       </div>
     </div>
   );
