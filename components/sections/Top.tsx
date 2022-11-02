@@ -15,7 +15,7 @@ const Top = () => {
       rotation: "-rotate-[14deg]",
       background: true,
       position: "bottom-6 right-6 z-0",
-      img: 'world-series-one.png',
+      img: 'world-series/world-series-one.png',
       cardType: 'top-small',
     },
     {
@@ -28,7 +28,7 @@ const Top = () => {
       totalhw: "tl-total",
       rotation: "rotate-[10deg]",
       background: true,
-      img: 'red-bull-one.png',
+      img: 'red-bull/red-bull-one.png',
       cardType: 'top-large',
     },
   ];

@@ -321,6 +321,7 @@ const Collections = () => {
   const getAllUniqueNFTs = (selection: any) => {
     setActiveNFTs(sampleNFTs);
     setActiveFilter(selection);
+    setShowPrompt(null);
   };
 
   return (
@@ -406,7 +407,7 @@ const Collections = () => {
 
       <div className="w-full h-4/6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-12 gap-6">
         {activeNFTs.map((nft: any) => (
-          <NFTCard key={nft} {...nft} />
+          <NFTCard key={nft.nft} {...nft} />
         ))}
       </div>
     </div>

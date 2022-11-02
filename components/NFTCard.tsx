@@ -38,7 +38,7 @@ const NFTCard = ({
   /*
     Based on cardType can determine the necessary h/w of the Image component ??
   */
- console.log(fullTitle);
+//  console.log(fullTitle);
 
   useEffect(() => {
     if (cardType === "collections") {
@@ -53,8 +53,8 @@ const NFTCard = ({
       });
     } else if (cardType === "trending-large") {
       setCardDimensions({
-        width: "310",
-        height: "280",
+        width: "250",
+        height: "250",
       });
     } else if (cardType === "top-large") {
       setCardDimensions({
@@ -76,7 +76,7 @@ const NFTCard = ({
       } ${rotation} ${background ? `shadow-4xl absolute ${position}` : null} `}
     >
       <div className={`flex justify-between items-center ${tbheight} w-full`}>
-        <p className="font-bold text-xl tracking-wider">{nft}</p>
+        <p className={`${cardType === "trending-small" ? ("text-sm") : null} font-bold text-xl tracking-wider`}>{nft}</p>
         <p className="text-sm font-light">{name}</p>
       </div>
       <div className={`${imgheight} w-full flex justify-center items-center`}>
