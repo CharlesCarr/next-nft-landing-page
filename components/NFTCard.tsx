@@ -75,20 +75,22 @@ const NFTCard = ({
         cardType === "collections" ? "hover:shadow-4xl" : null
       } ${rotation} ${background ? `shadow-4xl absolute ${position}` : null} `}
     >
-      <div className={`flex justify-between items-center ${tbheight} w-full`}>
+      <div className={`flex justify-between items-center ${tbheight} w-full h-1/4`}>
         <p className={`${cardType === "trending-small" ? ("text-sm") : null} font-bold text-xl tracking-wider`}>{nft}</p>
         <p className="text-sm font-light">{name}</p>
       </div>
-      <div className={`${imgheight} w-full flex justify-center items-center`}>
+      <div className={`${imgheight} w-full h-1/2 flex justify-center items-center relative`}>
         <Image
           src={`/images/${img}`}
           alt="nft image"
-          width={cardDimensions.width}
-          height={cardDimensions.height}
+          fill 
+          className="object-cover overflow-hidden"
+          // width={cardDimensions.width}
+          // height={cardDimensions.height}
         />
       </div>
       <div
-        className={`${tbheight} w-full flex justify-between items-center px-4`}
+        className={`${tbheight} w-full flex justify-between items-center px-4 h-1/4`}
       >
         <div className="flex flex-col justify-center items-center">
           <p className="font-light text-xs">Current Bid</p>
